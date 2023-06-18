@@ -1,11 +1,11 @@
-About r-uiucthemes
-==================
+About r-uiucthemes-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uiucthemes-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/illinois-r/uiucthemes, http://thecoatlessprofessor.com/projects/uiucthemes/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uiucthemes-feedstock/blob/main/LICENSE.txt)
 
 Summary: A set of custom 'R' 'Markdown' templates for documents and presentations with the University of Illinois at Urbana-Champaign (UIUC) color scheme and identity standards.
 
