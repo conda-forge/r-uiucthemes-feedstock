@@ -1,4 +1,4 @@
-{% set version = '0.3.1' %}
+{% set version = "0.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/uiucthemes_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/uiucthemes/uiucthemes_{{ version }}.tar.gz
-  sha256: c6e57673da2325852b428e3a80e59aa6963e224f75e482e9ba84e308d17b4fb9
+  sha256: da45cdfe16221849dd90f4b23251e696767c84c9419deeac13cf4ef781abee05
 
 build:
-  number: 3
+  number: 0
   noarch: generic
 
   rpaths:
@@ -42,8 +42,7 @@ about:
   home: https://github.com/illinois-r/uiucthemes, http://thecoatlessprofessor.com/projects/uiucthemes/
 
   license: MIT
-  summary: A set of custom 'R' 'Markdown' templates for documents and presentations with the
-    University of Illinois at Urbana-Champaign (UIUC) color scheme and identity standards.
+  summary: A set of custom 'R' 'Markdown' templates for documents and presentations with the University of Illinois at Urbana-Champaign (UIUC) color scheme and identity standards.
 
   license_family: MIT
   license_file:
